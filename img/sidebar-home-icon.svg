@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="16" height="16" transform="translate(17 75)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="sidebar-home-icon" transform="translate(-17 -75)" clip-path="url(#clip-path)">
+    <path id="Path_40" data-name="Path 40" d="M32.909,81.756a.683.683,0,0,1-.934.25L25,77.979l-6.975,4.026a.683.683,0,1,1-.683-1.184L24.659,76.6a.681.681,0,0,1,.683,0l7.316,4.224A.684.684,0,0,1,32.909,81.756Zm-1.731.71V88.81a.684.684,0,0,1-.683.683h-2.76a.684.684,0,0,1-.683-.683V86.8a2.05,2.05,0,0,0-4.1,0V88.81a.684.684,0,0,1-.683.683H19.506a.684.684,0,0,1-.683-.683V82.466a.684.684,0,0,1,.342-.592L24.659,78.7a.683.683,0,0,1,.683,0l5.494,3.171A.684.684,0,0,1,31.178,82.466Zm-1.367.395L25,80.084l-4.811,2.777v5.266h1.394V86.8a3.417,3.417,0,1,1,6.834,0v1.329h1.394Z" fill="#1a6079"/>
+  </g>
+</svg>
