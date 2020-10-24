@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+
+   <!-- Bootstrap CSS CDN -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/sidebar.css">
+
+   <title>Advocacia</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <nav id="sidebar">
+         <div class="sidebar-header">
+            <a href="">
+               <img src="./img/balance-logo.svg" alt="logo">
+               <h1>Advocacia</h1>
+            </a>
+         </div>
+
+         <ul class="list-unstyled components">
+            <p>MENU</p>
+
+            <li>
+               <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="far fa-edit"></i>Cadastros</a>
+               <ul class="collapse list-unstyled" id="homeSubmenu">                  
+                  <li><a href="cadastro-processo.html">Processos</a></li>
+                  <li><a href="#">Pessoas</a></li>                  
+                  <li><a href="#">Configurações</a></li>
+               </ul>
+            </li>
+
+            <li>
+               <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fas fa-print"></i>Relatórios</a>
+               <ul class="collapse list-unstyled" id="pageSubmenu">
+                  <li><a href="#">Relatório #1</a></li>
+                  <li><a href="#">Relatório #1</a></li>
+                  <li><a href="#">Relatório #1</a></li>
+               </ul>
+            </li>
+            <li>               
+               <a href="#"><i class="far fa-list-alt"></i>Portfolio</a>
+            </li>
+            <li>
+               <a href="#"><i class="fas fa-headphones"></i>Contact</a>
+            </li>
+            <li>
+               <a href="#"><i class="far fa-question-circle"></i>About</a>
+            </li>
+         </ul>
+      </nav>
+
+
+      <div id="content">
+         <div class="navbar-content">
+            <button id="sidebarCollapseButton" class="btn-32 btn-hover">
+               <i class="fas fa-outdent"></i>
+            </button>
+
+            <div class="navbar-options">
+               <ul>
+                  <li>
+                     <div class="search-content">
+                        <input type="text" id="txtBusca" placeholder="Buscar...">
+                        <button>
+                           <i class="fas fa-search"></i>
+                        </button>
+                     </div>
+                  </li>
+                  <li>
+                     <a href="#" id="eventos" class="button-hover text-dark"><i class="far fa-calendar-check"></i></a>
+                  </li>
+                  <li>
+                     <a href="#" id="notificacoes" class="button-hover text-dark"><i class="far fa-bell"></i></a>
+                  </li>
+                  <li>
+                     <div class="navbar-user-content button-hover">
+                        <a href="#">
+                           <i class="far fa-user-circle char"></i>
+                           Fernando
+                           <i class="fas fa-chevron-down"></i>
+                        </a>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+   <!-- jQuery CDN - Slim version (=without AJAX) -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <!-- Popper.JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+   <!-- Bootstrap JS -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+   <script src="./js/sidebar.js"></script>
+
+</body>
+
+</html>
